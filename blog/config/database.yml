@@ -21,7 +21,7 @@ default: &default
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
   username: ashot
-  password: <%= ENV['BLOG_DATABASE_PASSWORD'] %>
+  password: asd
 
 development:
   <<: *default
