@@ -25,7 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'graphql'
 gem 'jwt'
-gem 'graphql-rails'
+gem 'graphiql-rails'
 gem 'pg', '~> 0.20.0'
 
 

@@ -13,6 +13,7 @@ module Mutations
         post_body: post_body,
         category: category,
         author: author
+        user: context[:current_user]
       )
     end
   end

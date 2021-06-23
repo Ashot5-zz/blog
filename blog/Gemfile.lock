@@ -61,13 +61,6 @@ GEM
       railties
       sprockets-rails
     graphql (0.19.4)
-    graphql-rails (0.0.9)
-      graphiql-rails (~> 1.2)
-      graphql (~> 0.13)
-      graphql-relay (~> 0.9)
-      rails (~> 4)
-    graphql-relay (0.12.0)
-      graphql (~> 0.17)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     jbuilder (2.9.1)
@@ -167,8 +160,8 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   byebug
   coffee-rails (~> 4.1.0)
+  graphiql-rails
   graphql
-  graphql-rails
   jbuilder (~> 2.0)
   jquery-rails
   jwt
